@@ -49,6 +49,13 @@ atividade = read_projectdata()
 
 ```
 
+##Quais os parlamentares que possuem mais retweets de cada estado? 
+
+```{r}
+
+```
+
+
 ##Quais parlamentares possuem uma maior pupularidade no twitter? Maior quantidade de seguidores?
 
 ```{r}
