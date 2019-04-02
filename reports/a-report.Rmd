@@ -1,0 +1,68 @@
+---
+title: "Analise Exploratória:"
+output:
+    html_document:
+    df_print: paged
+theme: sandstone
+---
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+library(tidyverse)
+source(here::here("code/lib.R"))
+theme_set(theme_bw())
+```
+
+```{r echo=FALSE, read}
+atividade = read_projectdata()
+```
+
+
+(OBS.: descrever completamente com as figuras feitas, sempre do maior para o menor, ou seja, nunca rankear no "top 5", fazer completo.)
+
+##Quais parlamentares possuem mais retweets?
+
+```{r}
+
+```
+
+##Quais partidos possuem mais retweets?
+
+```{r}
+
+```
+
+##Quais parlamentares possuem maior engajamento total?
+
+```{r}
+
+```
+
+##Quais UFs possuem maior atividade no twitter?
+
+```{r}
+
+```
+
+##Quais parlamentares possuem uma maior pupularidade no twitter? Maior quantidade de seguidores?
+
+```{r}
+
+```
+
+##Quais partidos possuem maior proporção de parlamentares no twitter?
+(OBS:Não pode ser quantitativo pois partidos possuem quantidades diferentes de parlamentares).
+```{r}
+
+```
+
+##Quais parlamentares mais fazem tweetts mensalmente?
+
+```{r}
+
+```
+
+##Que partidos possuem maior popularidade?
+
+```{r}
+
+```
