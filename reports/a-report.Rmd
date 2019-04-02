@@ -9,11 +9,16 @@ theme: sandstone
 ```{r echo=FALSE, message=FALSE, warning=FALSE}
 library(tidyverse)
 source(here::here("code/lib.R"))
+library(tidyverse)
+library(here)
+library(lubridate)
+library(ggbeeswarm)
 theme_set(theme_bw())
 ```
 
 ```{r echo=FALSE, read}
 atividade = read_projectdata()
+
 ```
 
 
@@ -26,6 +31,7 @@ atividade = read_projectdata()
 ```
 
 ##Quais partidos possuem mais retweets?
+(OBS.: Proporção pela quantidade de parlamentares)
 
 ```{r}
 
@@ -55,7 +61,7 @@ atividade = read_projectdata()
 
 ```
 
-##Quais parlamentares mais fazem tweetts mensalmente?
+##Quais parlamentares mais fazem tweets mensalmente?
 
 ```{r}
 
